@@ -26,12 +26,12 @@
 
 /* 1. General Styles */
 
-
 /* 1.2 Resets */
 *  {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
 }
 
 
@@ -41,6 +41,18 @@
 
 
 /* 1.3 Others */
+
+:root  {
+  --gray-colour: #666 ;
+  --green-colour: #178A27 ;
+  --light-green-colour: #449C44;
+  --blue-colour: #1686C1 ;
+  --light-blue-colour: #31B0D5;
+  --red-colour: #852406;
+  --light-red-colour: #C9302C;
+}
+
+
 .body { 
   display: flex;
   flex-direction: column;
@@ -144,6 +156,56 @@
 
 
 
+    /* 2.3 About Us Section */
+
+    .about-us  {
+      margin: 70px auto;
+      max-width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+
+    .card  {
+      background-color: #f2f2f2;
+      margin-bottom: 50px;
+    }
+
+
+    .card-third  { width: 360px; }
+
+
+    .card-half  { width: 555px; }
+
+
+    .card_content  {
+      margin: 20px 20px;
+      display: flex;
+      flex-direction: column;      
+    }
+
+
+    .card_content-title  {
+      color: var(--gray-colour);
+      font-size: 24px;
+
+      margin-bottom: 20px;
+    }
+
+
+    .card_content-text  {
+      margin-bottom: 20px;
+      
+      color: #333;
+      line-height: 24px;
+    }
+
+
+
+
+
+
 /* 
     3. Component Styles
  */
@@ -156,3 +218,70 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
+
+
+    /* 3.2 Text Effects */
+
+    .text-green  { color: var(--green-colour); }
+
+
+    .text-blue  { color: var(--blue-colour); }
+
+
+    .text-center  { text-align: center; }
+
+    
+    /* 3.3 Button */
+
+    .btn  {
+      font-size: 18px;
+      color: #666;
+      background-color: #fff;
+      
+      width: 180px;
+      margin: 10px 0 20px 0;
+      padding: 15px 30px;
+
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+
+    .btn:hover,
+    .btn:focus  { background-color: #e6e6e6; }
+
+
+    .btn-center  { align-self: center; }
+
+
+    .btn-right  { align-self: flex-end; }
+
+
+    .btn-green  {
+      color: white;
+      background-color: var(--green-colour);
+    }
+
+
+      .btn-green:hover,
+      .btn-green:focus  { background-color: var(--light-green-colour); }
+
+
+    .btn-blue  {
+      color: white;
+      background-color: var(--blue-colour);
+    }
+
+
+      .btn-blue:hover,
+      .btn-blue:focus  { background-color: var(--light-blue-colour); }
+
+
+    .btn-red  {
+      color: white;
+      background-color: var(--red-colour);
+    }
+
+
+      .btn-red:hover,
+      .btn-red:focus  { background-color: var(--light-red-colour); }
