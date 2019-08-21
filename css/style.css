@@ -13,7 +13,11 @@
 
   2. Section Styles
 
-    2.1 Top-Bar 
+    2.1 Top-Bar
+    2.2 Hero 
+    2.3 About Us
+    2.4 Our Services
+    2.5 Contact Us
     
   3. Component Styles
     3.1 Buttons
@@ -123,7 +127,7 @@
 
 
 
-  /* 2.2 Hero Section */
+  /* 2.2 Hero */
 
   .hero  {
     display: flex;
@@ -156,10 +160,13 @@
 
 
 
-    /* 2.3 About Us Section */
+    
+
+    /* 2.3 About Us */
 
     .about-us  {
       margin: 70px auto;
+      min-width: 1200px;
       max-width: 1200px;
       display: flex;
       justify-content: space-between;
@@ -177,6 +184,12 @@
 
 
     .card-half  { width: 555px; }
+
+
+    .card-fourth  { width: 260px; }
+
+
+    .card-full  { width: 100%; }
 
 
     .card_content  {
@@ -205,6 +218,47 @@
 
 
 
+    /* 2.4 Our Services */
+    .service  {
+      width: 100%;
+      
+    }
+
+
+    .service_intro  {
+      background: url('https://source.unsplash.com/1920x540/daily/?sig=2');
+      height: 320px;
+      padding: 50px;      
+    }
+
+
+    .service_intro-title  {
+      font-size: 50px;
+      font-weight: normal;
+      text-shadow: 3px 2px #666;
+      margin-bottom: 15px;
+    }
+
+
+    .service_intro-text  {
+      /* width: 300px; */
+      font-size: 22px;
+      line-height: 30px;
+      text-shadow: 1px 1px #333;
+    }
+
+
+    .service_list  { 
+      margin: 70px auto;
+      min-width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;      
+    }
+
+
+
+
 
 /* 
     3. Component Styles
@@ -226,6 +280,9 @@
 
 
     .text-blue  { color: var(--blue-colour); }
+
+
+    .text-white  { color: white; }
 
 
     .text-center  { text-align: center; }
