@@ -19,13 +19,13 @@
         <div class="wrapper">
           <ul class="navigation_list">
             <li class="navigation_list--item">
-              <a href="#top" class="navigation_link active">Homepage</a></li>
+              <a href="#hero" class="navigation_link navigation_link_js">Homepage</a></li>
             <li class="navigation_list--item">
-              <a href="#about-us" class="navigation_link">About Us</a></li>
+              <a href="#about-us" class="navigation_link navigation_link_js">About Us</a></li>
             <li class="navigation_list--item">
-              <a href="#our-services" class="navigation_link">Services</a></li>
+              <a href="#our-services" class="navigation_link navigation_link_js">Services</a></li>
             <li class="navigation_list--item">
-              <a href="#contact-us" class="navigation_link">Contact</a></li>
+              <a href="#contact-us" class="navigation_link navigation_link_js">Contact</a></li>
             <li class="navigation_list--item last">
               <a href="https://www.mradi.co.ke" class="navigation_link">External</a></li>
           </ul>
@@ -36,18 +36,16 @@
 
     <main class="main">
       <!-- Hero -->
-      <div class="hero parallax">
+      <section id="hero" class="hero parallax">
           <div class="hero_text">
               <h1 class="hero_text--title">Conquerer</h1>
               <span class="hero_text--sub-title">Simple HTML 5 Template</span>
           </div>
-      </div>
-
+      </section>
 
 
       <!-- About Us -->
-      <div id="about-us" class="about-us wrapper">
-
+      <section id="about-us" class="about-us wrapper">
         <div class="card card-third"> 
           <img src="https://source.unsplash.com/360x185/daily?sig=1" 
               alt="random photo from unsplash.com">
@@ -155,11 +153,12 @@
             <button class="btn btn-right">Read More</button>
           </div>
         </div>
-      </div>
+
+      </section>
 
 
       <!-- Our Services -->
-      <div id="our-services" class="services">
+      <section id="our-services" class="services">
         <div class="service_intro text-center text-white parallax">
           <h3 class="service_intro-title">Our Services</h3>
           <p class="service_intro-text">
@@ -260,11 +259,11 @@
         
         </div>
 
-      </div>
+      </section>
 
 
       <!-- Contact Us -->
-      <div id="contact-us" class="contact_us parallax">
+      <section id="contact-us" class="contact_us parallax">
         <div class="wrapper">
           <h3 class="contact_us_title text-white text-center">Contact Form</h3>
           <div class="contact_us_message text-center round transparent-bg">
@@ -303,7 +302,6 @@
                 id="message" 
                 cols="30" 
                 rows="7" 
-
                 class="form_elements contact_form_message transparent-bg round"
                 placeholder="Your message here..."
               ></textarea>
@@ -315,7 +313,8 @@
             
           </form>
         </div>
-      </div>
+
+      </section>
     </main>
 
 
