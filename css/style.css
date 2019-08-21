@@ -281,6 +281,7 @@ html  { scroll-behavior: smooth; }
 
 
 
+
     /* 2.5 Contact Us */
 
     .contact_us  {
@@ -301,6 +302,7 @@ html  { scroll-behavior: smooth; }
 
     .contact_us_message  {
       width: 70%;
+
       padding: 24px 46px;
       margin: 10px auto;
     }
