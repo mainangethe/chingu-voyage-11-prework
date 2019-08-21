@@ -81,7 +81,7 @@ Enter `surge` in the terminal and surge will take you through the deployment pro
   - Confirms the folder you want to deploy
   - Asks you to confirm the url you want. 
   > PRO Tip: enter the url with `https://` to protect it automatically.
-  - You can also add custom domains. but here is where your free peny ends. Otherwise your stuck with the default `--custom-domain.surge.sh` format.
+  - You can also add custom domains. but here is where your free peny ends. Otherwise your stuck with the default `--custom-name.surge.sh` format.
 
   You can check it out here
   [Conquerer HTML5 Template](https://conquerer-html5.surge.sh)
