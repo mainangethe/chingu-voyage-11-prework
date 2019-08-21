@@ -279,11 +279,13 @@ html  { scroll-behavior: smooth; }
 
 
 
+
     /* 2.5 Contact Us */
 
     .contact_us  {
       width: 100%;
       height: 584px;
+
       background: url('https://source.unsplash.com/1920x584/daily/?sig=3'), #383E4C;
       padding: 70px 0;
     }
@@ -299,6 +301,7 @@ html  { scroll-behavior: smooth; }
 
     .contact_us_message  {
       width: 70%;
+
       padding: 24px 46px;
       margin: 10px auto;
     }
@@ -336,7 +339,6 @@ html  { scroll-behavior: smooth; }
 
 
     .form_right  { width: 50%; }
-
 
 
 
