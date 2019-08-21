@@ -54,6 +54,8 @@
   --light-blue-colour: #31B0D5;
   --red-colour: #852406;
   --light-red-colour: #C9302C;
+  --transparent-white-colour: hsla(0, 100%, 100%, .3);
+  --dark-gray-color: #262628;
 }
 
 
@@ -70,6 +72,9 @@
 
 
 .main  { margin-top:  78px; }
+
+
+.round  { border-radius: 5px; }
 
 
 
@@ -260,6 +265,70 @@
 
 
 
+
+    /* 2.5 Contact Us */
+
+    .contact_us  {
+      width: 100%;
+      height: 584px;
+      background: url('https://source.unsplash.com/1920x584/daily/?sig=3');
+      padding: 70px 0;
+    }
+
+
+    .contact_us_title  {
+      font-size: 50px;
+      font-weight: normal;
+      text-shadow: 3px 2px #333;
+      margin: 10px auto;
+    }
+
+
+    .contact_us_message  {
+      width: 66%;
+      padding: 24px 46px;
+      margin: 10px auto;
+    }
+
+
+      .transparent-bg  { background-color: var(--transparent-white-colour); }
+
+
+    .contact_us_form  {
+      margin:  0 auto;
+      min-width: 65%;
+      max-width: 70%;
+      display: flex;
+      
+    }
+
+
+    .form_elements  {
+      width: 345px;
+      margin: 10px;
+      padding: 10px 15px;
+      border: none;
+
+      font-size: 16px;
+    }
+
+
+      .form_elements:focus  { border: 1px solid #1686C1; }
+
+
+      .form_elements::placeholder  { color: #333; }
+
+
+    .form_left  { width: 50%; }
+
+
+    .form_right  { width: 50%; }
+    
+
+
+
+
+
 /* 
     3. Component Styles
  */
@@ -295,7 +364,7 @@
       color: #666;
       background-color: #fff;
       
-      width: 180px;
+      max-width: 180px;
       margin: 10px 0 20px 0;
       padding: 15px 30px;
 
@@ -342,3 +411,14 @@
 
       .btn-red:hover,
       .btn-red:focus  { background-color: var(--light-red-colour); }
+
+    
+    .btn-dark  {
+      color: white;
+      background-color: var(--dark-gray-color);
+      border-radius: 10px; 
+    }
+
+
+      .btn-dark:hover,
+      .btn-dark:focus  { color: #333; }
