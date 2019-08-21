@@ -140,7 +140,9 @@ html  { scroll-behavior: smooth; }
 
 
         .navigation_link:hover,
-        .active  { background-color: var(--secondary-bg); }
+        .active,
+        .active_js  { background-color: var(--secondary-bg); }
+        
 
 
 
